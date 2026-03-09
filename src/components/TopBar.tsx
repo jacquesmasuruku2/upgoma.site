@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Mail, Globe, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/i18n/LanguageContext";
 
@@ -44,7 +44,6 @@ const TopBar = () => {
             <span className="hidden sm:inline">info@upgoma.org</span>
           </a>
           <div className="flex items-center gap-1">
-            <Globe className="w-3 h-3" />
             <div id="google_translate_element" className="google-translate-container" />
           </div>
         </div>
