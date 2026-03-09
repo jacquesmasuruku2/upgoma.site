@@ -30,7 +30,7 @@ const TopBar = () => {
           <a href="https://upg-system.vercel.app/login-etudiant" target="_blank" rel="noopener noreferrer" className="hover:underline whitespace-nowrap hidden md:inline">{t("topbar.login")}</a>
         </div>
         <div className="flex items-center gap-3 sm:gap-4 ml-auto shrink-0">
-          <div className="flex items-center gap-1 min-w-fit h-10 py-1">
+          <div className="flex items-center gap-1 min-w-fit h-8 py-0">
             <div id="google_translate_element" className="google-translate-container" />
           </div>
           <a href="tel:+16132612229" className="flex items-center gap-1 hover:underline">
