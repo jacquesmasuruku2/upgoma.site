@@ -27,7 +27,7 @@ const TopBar = () => {
           <span className="opacity-40 hidden md:inline">|</span>
           <Link to="/bibliotheque" className="hover:underline whitespace-nowrap hidden md:inline">{t("topbar.library")}</Link>
           <span className="opacity-40 hidden md:inline">|</span>
-          <a href="https://systeme-upgoma.lovable.app/login-etudiant" target="_blank" rel="noopener noreferrer" className="hover:underline whitespace-nowrap hidden md:inline">{t("topbar.login")}</a>
+          <a href="https://upg-system.vercel.app/login-etudiant" target="_blank" rel="noopener noreferrer" className="hover:underline whitespace-nowrap hidden md:inline">{t("topbar.login")}</a>
         </div>
         <div className="flex items-center gap-3 sm:gap-4 ml-auto shrink-0">
           <a href="tel:+16132612229" className="flex items-center gap-1 hover:underline">

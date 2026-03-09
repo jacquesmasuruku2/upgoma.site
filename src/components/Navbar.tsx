@@ -46,7 +46,7 @@ const Navbar = () => {
     {
       label: t("nav.student"),
       children: [
-        { label: t("nav.student.portal"), href: "https://systeme-upgoma.lovable.app/login-etudiant", external: true },
+        { label: t("nav.student.portal"), href: "https://upg-system.vercel.app/login-etudiant", external: true },
         { label: t("nav.student.college"), href: "/college-etudiants" },
         { label: t("nav.student.inscription"), href: "https://systeme-upgoma.lovable.app/inscription", external: true },
       ],
