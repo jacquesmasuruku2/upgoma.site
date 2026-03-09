@@ -98,18 +98,19 @@
 }
 
 .google-translate-container .goog-te-gadget .goog-te-combo {
-  font-size: 11px !important;
-  background: rgba(255,255,255,0.2) !important;
+  font-size: 12px !important;
+  background: rgba(255,255,255,0.15) !important;
   color: white !important;
-  border: 1px solid rgba(255,255,255,0.4) !important;
+  border: 1px solid rgba(255,255,255,0.3) !important;
   border-radius: 4px !important;
-  padding: 5px 8px !important;
+  padding: 6px 10px !important;
   outline: none !important;
   cursor: pointer !important;
-  min-width: 100px !important;
-  height: 32px !important;
-  line-height: 20px !important;
+  min-width: 120px !important;
+  height: 36px !important;
+  line-height: 22px !important;
   transition: all 0.2s ease !important;
+  font-weight: 500 !important;
 }
 
 .google-translate-container .goog-te-gadget .goog-te-combo:hover {
@@ -152,10 +153,10 @@ body {
 /* Better positioning for small screens */
 @media (max-width: 640px) {
   .google-translate-container .goog-te-gadget .goog-te-combo {
-    font-size: 10px !important;
-    padding: 4px 6px !important;
-    min-width: 80px !important;
-    height: 28px !important;
-    line-height: 18px !important;
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+    min-width: 100px !important;
+    height: 32px !important;
+    line-height: 20px !important;
   }
 }

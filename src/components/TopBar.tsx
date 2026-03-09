@@ -16,10 +16,10 @@ const TopBar = () => {
   return (
     <div
       className={`bg-[hsl(210,70%,25%)] text-white text-xs sm:text-sm transition-all duration-300 z-50 ${
-        visible ? "h-14 opacity-100" : "h-0 opacity-0 overflow-hidden"
+        visible ? "h-16 opacity-100" : "h-0 opacity-0 overflow-hidden"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between h-14 px-4">
+      <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <div className="flex items-center gap-3 sm:gap-4 overflow-x-auto">
           <Link to="/frais" className="hover:underline whitespace-nowrap">{t("topbar.fees")}</Link>
           <span className="opacity-40 hidden sm:inline">|</span>
@@ -30,7 +30,7 @@ const TopBar = () => {
           <a href="https://upg-system.vercel.app/login-etudiant" target="_blank" rel="noopener noreferrer" className="hover:underline whitespace-nowrap hidden md:inline">{t("topbar.login")}</a>
         </div>
         <div className="flex items-center gap-3 sm:gap-4 ml-auto shrink-0">
-          <div className="flex items-center gap-1 min-w-fit">
+          <div className="flex items-center gap-1 min-w-fit h-10 py-1">
             <div id="google_translate_element" className="google-translate-container" />
           </div>
           <a href="tel:+16132612229" className="flex items-center gap-1 hover:underline">
