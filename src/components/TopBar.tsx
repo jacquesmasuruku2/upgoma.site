@@ -16,10 +16,10 @@ const TopBar = () => {
   return (
     <div
       className={`bg-[hsl(210,70%,25%)] text-white text-xs sm:text-sm transition-all duration-300 z-50 ${
-        visible ? "h-10 opacity-100" : "h-0 opacity-0 overflow-hidden"
+        visible ? "h-12 opacity-100" : "h-0 opacity-0 overflow-hidden"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between h-10 px-4">
+      <div className="container mx-auto flex items-center justify-between h-12 px-4">
         <div className="flex items-center gap-3 sm:gap-4 overflow-x-auto">
           <Link to="/frais" className="hover:underline whitespace-nowrap">{t("topbar.fees")}</Link>
           <span className="opacity-40 hidden sm:inline">|</span>
