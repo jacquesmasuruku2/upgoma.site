@@ -43,7 +43,7 @@ const TopBar = () => {
             <Mail className="w-3 h-3" />
             <span className="hidden sm:inline">info@upgoma.org</span>
           </a>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 min-w-fit">
             <div id="google_translate_element" className="google-translate-container" />
           </div>
         </div>
