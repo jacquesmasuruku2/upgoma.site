@@ -268,7 +268,7 @@ const FacultyPage = () => {
                   <h3 className="font-bold text-lg mb-2">Intéressé par cette faculté ?</h3>
                   <p className="text-primary-foreground/80 text-sm mb-4">Rejoignez l'Université Polytechnique de Goma</p>
                   <div className="space-y-2">
-                    <a href="https://systeme-upgoma.lovable.app/inscription" target="_blank" rel="noopener noreferrer" className="block">
+                    <a href="https://upg-system.vercel.app/inscription" target="_blank" rel="noopener noreferrer" className="block">
                       <Button className="bg-upg-orange hover:bg-upg-orange/90 text-white w-full font-semibold">
                         {t("hero.cta1")}
                       </Button>

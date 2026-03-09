@@ -55,7 +55,7 @@ const AdmissionSection = () => {
                 Remplissez le formulaire d'inscription complet en cliquant sur le bouton ci-dessous.
               </p>
               <a
-                href="https://systeme-upgoma.lovable.app/inscription"
+                href="https://upg-system.vercel.app/inscription"
                 target="_blank"
                 rel="noopener noreferrer"
               >

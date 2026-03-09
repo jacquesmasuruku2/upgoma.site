@@ -165,7 +165,7 @@ const FeesPage = () => {
                 Les frais sont susceptibles de changer. Contactez l'administration pour plus d'informations.
               </p>
               <div className="flex flex-wrap gap-3 justify-center">
-                <a href="https://systeme-upgoma.lovable.app/inscription" target="_blank" rel="noopener noreferrer">
+                <a href="https://upg-system.vercel.app/inscription" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-primary hover:bg-primary/90 gap-2">
                     <GraduationCap className="w-4 h-4" />
                     S'inscrire maintenant

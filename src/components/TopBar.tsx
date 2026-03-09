@@ -23,7 +23,7 @@ const TopBar = () => {
         <div className="flex items-center gap-3 sm:gap-4 overflow-x-auto">
           <Link to="/frais" className="hover:underline whitespace-nowrap">{t("topbar.fees")}</Link>
           <span className="opacity-40 hidden sm:inline">|</span>
-          <a href="https://systeme-upgoma.lovable.app/inscription" target="_blank" rel="noopener noreferrer" className="hover:underline whitespace-nowrap hidden sm:inline">{t("topbar.inscription")}</a>
+          <a href="https://upg-system.vercel.app/inscription" target="_blank" rel="noopener noreferrer" className="hover:underline whitespace-nowrap hidden sm:inline">{t("topbar.inscription")}</a>
           <span className="opacity-40 hidden md:inline">|</span>
           <Link to="/bibliotheque" className="hover:underline whitespace-nowrap hidden md:inline">{t("topbar.library")}</Link>
           <span className="opacity-40 hidden md:inline">|</span>
